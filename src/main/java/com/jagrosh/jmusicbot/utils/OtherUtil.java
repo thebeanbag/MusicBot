@@ -164,6 +164,7 @@ public class OtherUtil
     public static void checkVersion(Prompt prompt)
     {
         // Get current version number
+        /*
         String version = getCurrentVersion();
         
         // Check for new version
@@ -173,6 +174,7 @@ public class OtherUtil
         {
             prompt.alert(Prompt.Level.WARNING, "JMusicBot Version", String.format(NEW_VERSION_AVAILABLE, version, latestVersion));
         }
+        */
     }
     
     public static String getCurrentVersion()
